@@ -1,10 +1,12 @@
 # 1° Challenge de Dados -  Alura
 
-A Alura Voz é uma empresa de telecomunicação hipotetica que nos contratou para atuar como cientistas de dados na equipe de vendas. Logo na primeira semana, a liderança nos informa que é muito necessário realizar um estudo quanto ao Churn da empresa. É explicado que o churn indica se um cliente cancelou ou não o contrato com a empresa, e também que, nos casos de perda do cliente a empresa também perde faturamento, o que ocasiona prejuizos na receita final.
+Esse projeto segue a metodologia de atuar em uma empresa hipotetica para experênciar as atividades de um cientisda de dados utilizando, a empresa foi nomeada Alura Voz.
 
-Desse modo, nossa liderança informa que temos 4 semanas para buscar uma alternativa que possa minimizar a saída de clientes e nos entrega um conjunto de dados da Alura Voz que contém diversas informações sobre os clientes e também informa se eles deixaram ou não a empresa.
+A Alura Voz, uma empresa hipotética de telecomunicações, me contratou para atuar como cientista de dados na equipe de vendas. Logo na minha primeira semana, a liderança deixou claro que era essencial realizar um estudo sobre o churn da empresa. Foi explicado que o churn representa a saída de clientes e que, quando isso acontece, a empresa não apenas perde consumidores, mas também sofre impactos negativos em sua receita.
 
-Sabemos que, antes de pensar em qualquer alternaiva, é preciso entender as informações que recebemos e, após uma pequena reunião, concluímos que na primeira semana nós nos dedicaríamos a entender o banco de dados, descobrir os tipos de dados, verificar a existencia de valores incoerentos e corrigi-los caso seja necessário.
+Diante desse cenário, recebi a missão de buscar, em um prazo de quatro semanas, uma alternativa para minimizar a saída de clientes. Para isso, fui apresentado a um conjunto de dados da Alura Voz, contendo diversas informações sobre os clientes, incluindo se eles permaneceram ou não na empresa.
+
+Antes de propor qualquer solução, compreendi que o primeiro passo era analisar cuidadosamente os dados disponíveis. Após uma breve reunião, decidi que minha primeira semana seria dedicada a entender a estrutura do banco de dados, identificar os tipos de informações contidas nele, verificar a existência de valores inconsistentes e corrigi-los, caso necessário.
 
 ## Limpeza dos dados - limpeza.ipynb
 
