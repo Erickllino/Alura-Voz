@@ -10,7 +10,7 @@ Desse modo, nossa liderança informa que temos 4 semanas para buscar uma alterna
 
 Sabemos que, antes de pensar em qualquer alternaiva, é preciso entender as informações que recebemos e, após uma pequena reunião, concluímos que na primeira semana nós nos dedicaríamos a entender o banco de dados, descobrir os tipos de dados, verificar a existencia de valores incoerentos e corrigi-los caso seja necessário.
 
-## Limpeza dos dados
+## Limpeza dos dados -  Arquivo limpeza.ipynb
 
 ### Dados
 
