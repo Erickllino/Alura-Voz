@@ -12,9 +12,9 @@ Antes de propor qualquer solução, compreendi que o primeiro passo era analisar
 
 ### Dados
 
-Ao observar a Base de dados da Alura Voz, verificamos que essa é uma base disponibilizada via API em formato JSON com várias camandas de dados.
+Ao observar a Base de dados da Alura Voz, verifiquei que essa é uma base disponibilizada via API em formato JSON com várias camandas de dados.
 
-Junnto a esses dados também foi disponibilizado o [dicionário dos dados](https://github.com/sthemonica/alura-voz/blob/main/dicionario.md) que nele contém todas as informações sobre as colunas do banco de dados.
+Junto a esses dados também foi disponibilizado o dicionário dos dados que nele contém todas as informações sobre as colunas do banco de dados.
 
 Nela, além da informação se o cliente deixou ou não a empresa, também contém:
 
@@ -60,18 +60,18 @@ Tendo essas informações entendemos nossos dados e, assim, podemos realizar uma
 
 ## Análise dos dados - analise.ipynb
 
-Feito o reconhecimento e tratamento de dados, demos continuidade do nosso trabalho, agora, analisando os dados. Em conversa com o grupo, conluímos que precisamos fazer uma análise gráfica para entender quais as variáveis que são relacionadas com o churn para que a equipe de vendas tenha uma noção do cenário atual, e também para que nós possamos entender de uma forma mais clara e formar possíveis hipóteses do que está acontecendo com os clientes.
+Feito o reconhecimento e tratamento de dados, dei continuidade do trabalho, agora, analisando os dados. Conluí que preciso fazer uma análise gráfica para entender quais as variáveis que são relacionadas com o churn para que a equipe de vendas tenha uma noção do cenário atual, e também para que nós possa entender de uma forma mais clara e formar possíveis hipóteses do que está acontecendo com os clientes.
 
-Planejamos assim, fazer uma **análise estatística** dos dados, verificar os **tipos de dados** que temos, gerar gráficos de **distribuição de dados binários ou categóricos**, plot de **Boxplots** para detecção de outliers e **matriz de correlação**. Assim, de cada análise e verificação conseguimos identificar a relação dos dados com nosso alvo, identificar valores incoerêntes e/ou desnecessários e támbem entender ainda mais os dados que temos.
+Planejei assim, fazer uma **análise estatística** dos dados, verificar os **tipos de dados** que temos, gerar gráficos de **distribuição de dados binários ou categóricos**, plot de **Boxplots** para detecção de outliers e **matriz de correlação**. Assim, de cada análise e verificação consegui identificar a relação dos dados com nosso alvo, identificar valores incoerêntes e/ou desnecessários e támbem entender ainda mais os dados que temos.
 
 
 
 ## Modelos de Machine Learning - modelos.ipynb
 
-Ao discutir e verificar todas as análises feitas na 2° semana, concluímos que uma boa opção para minimizar a evasão de clientes na Alura Voz é ter um modelo treinado que vai classificar clientes como potenciais pessoas a deixar a empresa e assim, a equipe de vendas pode agir antes que isso possa, de fato, ocorrer.
+Ao revisar e discutir todas as análises realizadas na segunda semana, concluí que uma estratégia eficaz para minimizar a evasão de clientes na Alura Voz seria treinar um modelo capaz de identificar clientes com maior probabilidade de cancelar o serviço. Dessa forma, a equipe de vendas poderia agir preventivamente antes que a saída realmente ocorresse.
 
-Com isso, iniciamos a preparação de dados para serem enviados aos modelos. Pelos estudos da semana 2, nós já tinhamos identificado entradas desinteressantes para o aprendizado, dados categóricos não numéricos que seriam impossíveis de serem reconhecidos por um modelo matemático, além de termos o nosso alvo com valores desbalanceados. Esses dados logo foram tratados para se ajustarem ao modelo.
+Com essa decisão tomada, iniciei a preparação dos dados para alimentar os modelos. Durante os estudos da segunda semana, já havia identificado variáveis pouco relevantes para o aprendizado, além de dados categóricos não numéricos, que precisavam ser transformados para serem interpretados pelos modelos matemáticos. Além disso, percebi que a variável-alvo estava desbalanceada, o que exigia ajustes para evitar viés nos resultados. Assim, tratei esses dados para adequá-los ao modelo.
 
-Os modelos de classificação que definimos serem interessantes para solucionar nosso problema foram o **SVC**, **Decision Tree** e **Random Forest**. No entanto, não entramos em um consenso de qual modelo seria o melhor para o caso. Por isso, decidimos criar os 3 modelos e treiná-los, para que na nossa última semana pudessemos avaliar qual o mais interessante de ser utilizado.
+Os algoritmos de classificação escolhidos para resolver esse problema foram **SVC**, **Decision Tree** e **Random Forest**. No entanto, ainda não havia um consenso sobre qual deles seria o mais adequado para essa situação. Por isso, decidi criar e treinar os três modelos, para que, na última semana, pudesse avaliar qual deles apresentava o melhor desempenho.
 
 ## Optimização - optimizacao.ipynb
